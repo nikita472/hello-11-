@@ -1,6 +1,6 @@
 import json
 
-
+#получает данные фильма
 def get_films(file_path: str = 'data_film/data.json', film_id: int = None) -> list[dict] | dict:
     with open(file_path, 'r') as fp:
         films = json.load(fp)
@@ -8,7 +8,7 @@ def get_films(file_path: str = 'data_film/data.json', film_id: int = None) -> li
             return films[film_id]
         return films
 
-
+#добавляет фильмы в data.json
 def add_film(film: dict, file_path: str = 'data_film/data.json'):
     films = get_films(file_path=file_path, film_id=None)
     if films:

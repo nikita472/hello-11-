@@ -8,9 +8,7 @@ class FilmCallback(CallbackData, prefix='film', sep=';'):
 
 
 def films_keyboard_markup(films_list: list[dict], offset: int | None = None, skip: int | None = None):
-    """
-    Створює клавіатуру на основі отриманого списку фільмів
-    """
+    #создает клавиатуру на основе фильмов в списке
     builder = InlineKeyboardBuilder()
     builder.adjust(1, repeat=True)
 
