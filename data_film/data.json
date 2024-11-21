@@ -34,5 +34,16 @@
             "Bill Murray"
         ],
         "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Garfield_ver6.jpg/220px-Garfield_ver6.jpg"
+    },
+    {
+        "name": "film",
+        "description": "gigi",
+        "rating": 7.0,
+        "genre": "horror",
+        "actors": [
+            "nikita",
+            "nikita"
+        ],
+        "poster": "raise TelegramNetworkError(method=method, message=f\"{type(e).name}: {e}\")\naiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientConnectionError: Failed to send bytes into the underlying connection Connection<ConnectionKey(host='api.telegram.org', port=443, is_ssl=True, ssl=True, proxy=None, proxy_auth=None, proxy_headers_hash=None)>"
     }
 ]
